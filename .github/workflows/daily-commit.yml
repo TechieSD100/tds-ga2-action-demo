@@ -1,5 +1,8 @@
 name: Daily Commit Workflow
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
   schedule:
